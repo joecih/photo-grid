@@ -1,0 +1,72 @@
+body {
+  background-color: darkgrey;
+  color: white;
+  text-align: center;
+  padding: 2px;
+
+}
+
+#gallery-wrapper h1 {
+  font-family: Asset, cursive;;
+  font-size: 35px;
+  padding: 20px;
+  color: #1b4a40;
+}
+
+/*#gallery-wrapper {
+  width: 100%;
+  margin: auto;
+}*/
+
+.caption {
+  background-color: #28261c;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+}
+
+.landscape {
+
+}
+
+.image {
+  float: left;
+	width:32.333%;
+	padding:.5%;
+}
+
+
+.four {
+  /*margin-top: 2%;*/
+}
+.five {
+  /*margin-top: 2%;*/
+}
+.six {
+  clear: both;
+}
+
+.portrait img {
+  width: 100%;
+}
+
+.landscape img {
+  width: 100%;
+}
+
+.extra-stuff{
+	font-size: 20px;
+	float: left;
+	width: 32.3333%;
+	text-align: center;
+	background-color: #6f2424;
+	color: white;
+	padding:10% 0;
+	margin-top:.5%;
+	margin-left:.5%;
+}
+
+.wide-image .landscape img{
+	width: 100%;
+	margin-top: 1%;
+}
