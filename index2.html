@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: darkgrey;
+            text-align: center;
+        }
+        .fixed {
+            position: fixed;
+            border: 3px solid #73AD21;
+            left: 40px;
+            top: 40px;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            
+            z-index: 1;
+        }
+        
+        .absolute {
+            position: absolute;
+            bottom: 50%;
+            right: 0;
+            width: 300px;
+            border: 3px solid red;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            z-index: -1;
+            background-color: white;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>position: fixed;</h2>
+
+    <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+    <div class="fixed">
+        Test Parent fixed!
+        <div class="absolute">
+            This div element has position: fixed;
+        </div>
+    </div>
+    <div class="absolute">
+        ANOTHER FIXED!
+    </div>
+
+</body>
+
+</html>

@@ -28,6 +28,7 @@ img {
     float: left;
     width: 32.333%;
     padding: .5%;
+    box-sizing: border-box;
 }
 
 .six {
@@ -58,4 +59,25 @@ img {
 .wide-image .landscape img {
     width: 100%;
     margin-top: 1%;
+}
+
+@media screen and (max-width:600px) {
+    .image{
+        width:95%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .extra-stuff{        
+       padding: 13% 10%;    
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width:601px){
+    .image{
+        width:45%;
+    }
+    .four{
+        clear:both;
+    }
 }
